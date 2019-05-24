@@ -36,7 +36,7 @@
             <button class="btn-search" type="button">SEARCH</button>
           </div>
           <div class="input-field fifth-wrap">
-            <button id="add-a-bike" class="btn-search" type="button">ADD A BIKE</button>
+            <%= link_to "ADD A BIKE", new_bike_path(@bike), {:id=>"add-a-bike", :class=>"btn-search"} %>
           </div>
         </div>
       </form>
