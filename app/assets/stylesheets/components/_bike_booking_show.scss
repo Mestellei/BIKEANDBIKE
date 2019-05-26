@@ -1,12 +1,65 @@
+
+.bike-banner {
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center;
+}
+
 .background-image-test {
   background-image: url("https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
 }
 
-.test_me {
+.test_me_ko {
   background: white;
   padding: 30px;
   border: 1px solid lightgrey;
-  margin: 40px auto;
+  // margin: 40px auto;
   box-shadow: 1px 2px 10px #8080808c;
 
+}
+
+#bike-card-container {
+  height: 400px;
+}
+
+.card-container {
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-left {
+  flex-grow: 1;
+}
+
+.bike-col {
+}
+
+.bike-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+}
+
+.card-container {
+  padding: 20px;
+  background-color: white;
+}
+
+.bad-form-param {
+  display: flex;
+  vertical-align: center;
+}
+
+.bad-form-param label {
+  margin-top: 5px;
+}
+
+.input-group-addon {
+  width: 100px;
 }
