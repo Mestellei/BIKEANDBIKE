@@ -1,5 +1,5 @@
 
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1451934403379-ffeff84932da%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9);">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1474447202275-ba85b0fa7d82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">
   <div class="container">
     <div class="row">
     <div class="col-12 col-lg-12">
@@ -22,7 +22,11 @@
                 <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"></path>
               </svg>
             </div>
-            <input class="datepicker" id="depart" type="text" placeholder="29 Aug 2018" />
+            <form>
+                <div>
+                  <input type="date" id="start" name="start_day">
+                </div>
+              </form>
           </div>
           <div class="input-field third-wrap">
             <div class="icon-wrap">
@@ -30,57 +34,34 @@
                 <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"></path>
               </svg>
             </div>
-            <input class="datepicker" id="return" type="text" placeholder="30 Aug 2018" />
+               <form>
+                <div>
+                  <input type="date" id="start" name="start_day">
+                </div>
+              </form>
           </div>
           <div class="input-field fifth-wrap">
             <button class="btn-search" type="button">SEARCH</button>
           </div>
-          <div class="input-field fifth-wrap">
-            <%= link_to "ADD A BIKE", new_bike_path(@bike), {:id=>"add-a-bike", :class=>"btn-search"} %>
+           <div class="input-field fifth-wrap">
+            <button class="btn-search" type="button" id="add-a-bike"><%= link_to "ADD A BIKE", new_bike_path(@bike) %></button>
           </div>
         </div>
       </form>
     </div>
-    <script src="assets/javascript/choices.js"></script>
-    <script src="assets/javascript/flatpickr.js"></script>
-    <script>
-      flatpickr(".datepicker",
-      {});
-
-    </script>
-    <script>
-      const choices = new Choices('[data-trigger]',
-      {
-        searchEnabled: false,
-        itemSelectText: '',
-      });
-
-    </script>
-
-
-   <!--
-    <form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-  <div class="search-form-control form-group">
-    <input class="form-control string required" type="text" name="search[query]" id="search_query" />
-    <button name="button" type="submit" class="btn btn-flat">
-      <i class="fas fa-search"></i> Search
-    </button>
-  </div>
-</form> -->
 
 </div>
   </div>
   </div>
   </div>
-</div> -->
+</div>
+
+
 
 <div class="listbikes">
-  <div class="d-flex justify-content-between">
-    <div class="row">
   <%= @bikes.each do |bike| %>
-<div class="col-4">
 <div class="card-trip">
-  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg">
+  <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
   <div class="card-trip-infos">
     <div>
       <h2><%= bike.name %></h2>
@@ -90,10 +71,7 @@
     <h2 class="card-trip-pricing"><%= bike.price_per_day %>€/par jour</h2>
 </div>
 </div>
-</div>
 <% end %>
-</div>
-</div>
 </div>
 
 

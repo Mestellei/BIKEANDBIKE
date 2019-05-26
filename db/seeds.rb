@@ -38,6 +38,15 @@ bike2 = Bike.create({
   user: user2
 })
 
+bike3 = Bike.create({
+  name: 'Hola',
+  brand: 'Fast',
+  category: 'City bike',
+  address: '18 villa Gaudelet, 75011, Paris',
+  price_per_day: '20',
+  user: user2
+})
+
 p "#{Bike.count} bike"
 
 
