@@ -81,6 +81,19 @@
   width: 40px;
 }
 
+.card-trip a
+{
+color: black;
+text-decoration: none;
+}
+
+.card-trip a.hover
+{
+color: black;
+text-decoration: none;
+}
+
+
 .listbikes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -653,14 +666,15 @@ legend {
   background-color: #868c41;
 }
 
-a
+#add-a-bike a
 {
 color: white;
 text-decoration: none;
 }
 
-a.hover
+#add-a-bike a.hover
 {
 color: white;
 text-decoration: none;
+background-color: #34373f;
 }
