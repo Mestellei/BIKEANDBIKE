@@ -2,38 +2,44 @@
 <div class="bike-banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
 
   <div class="container"> <!-- margin-top-negative -->
-    <div class="row">
-      <div class="col-4 test_me bike-col" id="bike-card-container">
+    <div class="row mt-4">
+      <div class="col-sm-8 col-md-4 mt-4 bike-cards-container" id="card-left">
 
         <div class="card-container">
 
-          <div class="flex-container">
+          <div class="bike-show-card">
+            <h2><%= @bike.name %></h2>
+            <p class="bike-show-address"><%= @bike.address %></p>
+          </div>
 
-            <div class="flex-left">
+          <div class="bike-show-card">
+            <h2>Category</h2>
+            <p><%= @bike %></p>
+          </div>
 
-              <div class="bike-show-card">
-                <h2><%= @bike.name %></h2>
-                <p class="bike-show-address"><%= @bike.address %></p>
-              </div>
-
-              <div class="bike-show-card">
-                <h2>Category</h2>
-                <p><%= @bike %></p>
-                <div class="map" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=<%= @bike.address %>&zoom=13&scale=2&size=1000x1000&maptype=roadmap&markers=color:red%7C<%= @bike.address %>&key=AIzaSyBtaHK-BLhBg7TruJu8iKk_wETqZMJM-GY')"></div>
-              </div>
-
-            </div>
-
-            <div class="bike-show-card">
-              <div class="bike-photo" style="background-image: url(https://surlybikes.com/uploads/bikes/_medium_image/BridgeClub_BK9997.jpg)"></div>
-            </div>
-
+          <div class="bike-show-card">
+            <h2>Price per Day</h2>
+            <i class="material-icons mr-2">Euro :</i> <%= @bike.price_per_day %>  €
           </div>
 
         </div>
 
       </div>
-      <div class="col-4 test_me bike-col">
+      <div class="col-sm-8 col-md-4 mt-4" id="card-middle">
+
+        <div class="card-container">
+
+          <div class="bike-show-card bike-show-card-photo">
+            <div class="photo-container">
+              <div class="bike-photo" style="background-image: url(https://surlybikes.com/uploads/bikes/_medium_image/BridgeClub_BK9997.jpg)">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-sm-8 col-md-4 mt-4">
 
         <div class="card-container">
           <div class="bike-show-car">
@@ -55,10 +61,9 @@
           </div>
           <div class="bike-show-card mt-4">
 
-            <h2>Price per Day</h2>
-              <div class="flex ml-8">
-                <i class="material-icons mr-2">Euro :</i> <%= @bike.price_per_day %>
-              </div>
+            <h2>Global Price</h2>
+            <div class="flex ml-8">
+              <i class="material-icons mr-2">Euro :</i> <%= @bike.price_per_day * 4 %> €
             </div>
 
           </div>
