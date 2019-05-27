@@ -12,15 +12,16 @@
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 24px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-style: italic;
 }
 
 
@@ -69,6 +70,7 @@
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 4px;
 }
 
 .card-trip > img {
@@ -103,5 +105,20 @@
   right: 16px;
   top: -20px;
   width: 40px;
+}
+
+.listbikes {
+margin: 30px;
+}
+
+
+input {
+    margin: .4rem 0;
+    color: #9a9a9a;
+}
+
+.note {
+    font-size: .8em;
+    opacity: 0.3;
 }
 
