@@ -9,13 +9,31 @@
 .login_forgot_password{
  margin-top: 25px;
  text-align: center;
- margin-left: 0px;
 }
 
 .btn {
  margin-top: 25px;
 }
 
+.container h2 {
+  margin-bottom: 30px;
+}
+
+.login_forgot_password a {
+  margin-left: 0px !important;
+}
+
+.loginin {
+  background-color: #444d60;
+  border: none;
+  color: white;
+}
+
+.loginin .hover {
+  background-color: #868fa0;
+}
+
 // .container h2 {
 //   margin-bottom: 30px;
 // }
+
