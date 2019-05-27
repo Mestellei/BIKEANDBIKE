@@ -1,8 +1,57 @@
-.test_me {
-  background: white;
-  padding: 30px;
-  border: 1px solid lightgrey;
-  margin: 40px auto;
-  box-shadow: 1px 2px 10px #8080808c;
 
+.bike-banner {
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.bike-cards-container {
+  height: 400px;
+}
+
+#card-left {
+  padding-right: 0;
+}
+
+#card-middle {
+  padding-left: 0;
+}
+
+.card-container {
+  background-color: white;
+  height: 100%;
+  padding: 20px;
+}
+
+.photo-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  align-items: center;
+}
+
+.bike-show-card-photo {
+  height: 100%;
+}
+
+.bike-photo {
+  width: 300px;
+  height: 300px;
+  // border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.bad-form-param {
+  display: flex;
+  vertical-align: center;
+}
+
+.bad-form-param label {
+  margin-top: 5px;
+}
+
+.input-group-addon {
+  width: 100px;
 }
