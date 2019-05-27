@@ -1,2 +1,81 @@
-<h1>Bookings#index</h1>
-<p>Find me in app/views/bookings/index.html.erb</p>
+<!-- <h1>Bookings#index</h1>
+<p>Find me in app/views/bookings/index.html.erb</p> -->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Utility Classes</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  </head>
+
+<body style="background-image: url(https://images.unsplash.com/photo-1416103292956-1f6aff3d93fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);">
+
+  <div class = "title"><h2>Bike bookings history</h2></div>
+
+  <div class="table-responsive-sm">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+
+          <th scope="col">Bike name</th>
+          <th scope="col">Start date</th>
+          <th scope="col">End date</th>
+          <th scope="col">Total Price €</th>
+          <th scope="col">Status</th>
+
+          <th scope="col">Edit</th>
+          <th scope="col">Delete</th>
+          <th scope="col">Add a review</th>
+
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <% @bookings.each do |booking| %>
+          <tr>
+            <td><%= booking.bike.name %></td>
+            <td><%= booking.begining_date.strftime("%B #{booking.begining_date.day.ordinalize}, %Y") %></td>
+            <td><%= booking.end_date.strftime("%B #{booking.end_date.day.ordinalize}, %Y")  %></td>
+            <td><%= booking.total_price%></td>
+            <td><%= booking.status%></td>
+            <td><%= link_to "Edit", edit_booking_path(booking), class: "btn btn-warning" %></td>
+            <td><%= link_to "Delete", booking_path(booking), method: :delete, class: "btn btn-danger" %></td>
+            <td><%= link_to "Add a review",  new_booking_review_path(booking), class: "btn btn-primary" %></td>
+          </tr>
+        <% end %>
+
+     <!--    <tr>
+
+          <td>a</td>
+          <td>a</td>
+          <td>a</td>
+          <td>a</td>
+          <td>a</td>
+
+          <td><a href="..." class="btn btn-warning">Edit</a></td>
+          <td><a href="..." class="btn btn-danger">Delete</a></td>
+          <td><a href="..." class="btn btn-primary">Add a review</a></td>
+
+        </tr> -->
+
+
+      </tbody>
+    </table>
+
+ </div>
+
+<!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</body>
+
