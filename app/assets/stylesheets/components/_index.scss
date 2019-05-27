@@ -5,8 +5,10 @@
 @import "signup";
 @import "bike_booking_show";
 @import "_bookings_index";
+@import "_map";
 
 //search bar
+
 .search-form-control {
   position: relative;
 }
@@ -99,7 +101,7 @@ text-decoration: none;
 
 .listbikes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
 
