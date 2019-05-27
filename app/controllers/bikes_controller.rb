@@ -1,7 +1,14 @@
 class BikesController < ApplicationController
   # skip_before_action: authenticate_ueser, only: :index
   def index
-    @bikes = Bike.all
+    @bikes = Bike.where.not(latitude: nil, longitude: nil)
+
+    @markers = @bikes.map do |bike|
+      {
+        lat: bike.latitude,
+        lng: bike.longitude
+      }
+    end
   end
 
   def show

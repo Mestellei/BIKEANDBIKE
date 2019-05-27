@@ -30,3 +30,4 @@ end
 
 gem 'devise'
 gem 'scrollbar-rails'
+gem 'geocoder'
