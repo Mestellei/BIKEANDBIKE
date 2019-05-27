@@ -1,2 +1,87 @@
-<h1>Bikes#index</h1>
-<p>Find me in app/views/bikes/index.html.erb</p>
+
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://files.slack.com/files-pri/T02NE0241-FK11WBZF1/image.png);">
+  <div class="container">
+    <div class="row">
+    <div class="col-12 col-lg-12">
+  <div class="s002">
+      <form>
+      <h1>Bike&Bike</h1>
+    <p>Let's have a ride!</p>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <div class="icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+              </svg>
+            </div>
+            <input id="search" type="text" placeholder="Where?" />
+          </div>
+          <div class="input-field second-wrap">
+            <div class="icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"></path>
+              </svg>
+            </div>
+            <form>
+                <div>
+                  <input type="date" id="start" name="start_day">
+                </div>
+              </form>
+          </div>
+          <div class="input-field third-wrap">
+            <div class="icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"></path>
+              </svg>
+            </div>
+               <form>
+                <div>
+                  <input type="date" id="start" name="start_day">
+                </div>
+              </form>
+          </div>
+          <div class="input-field fifth-wrap">
+            <button class="btn-search" type="button">SEARCH</button>
+          </div>
+           <div class="input-field fifth-wrap">
+            <button class="btn-search" type="button" id="add-a-bike"><%= link_to "ADD A BIKE", new_bike_path(@bike) %></button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+</div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="listbikes">
+  <% @bikes.each do |bike| %>
+<div class="card-trip">
+  <img src= "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+  <div class="card-trip-infos">
+    <div>
+      <h2><%= link_to bike.name, bike_path(bike) %></h2>
+      <p><%=  bike.category%></p>
+      <p><%=  bike.address%></p>
+    </div>
+    <h2 class="card-trip-pricing"><%= bike.price_per_day %>€/par jour</h2>
+</div>
+</div>
+<% end %>
+</div>
+
+<div
+  id="map"
+  style="width: 100%;
+  height: 600px;"
+  data-markers="<%= @markers.to_json %>"
+  data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+></div>
+
+
+
+

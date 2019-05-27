@@ -1,11 +1,18 @@
 class BikesController < ApplicationController
   # skip_before_action: authenticate_ueser, only: :index
   def index
-    @bikes = Bike.All
+    @bikes = Bike.where.not(latitude: nil, longitude: nil)
+
+    @markers = @bikes.map do |bike|
+      {
+        lat: bike.latitude,
+        lng: bike.longitude
+      }
+    end
   end
 
   def show
-    @bike = Bike.find(:id)
+    @bike = Bike.find(params[:id])
   end
 
   def new
@@ -14,10 +21,13 @@ class BikesController < ApplicationController
 
   def create
     @bike = Bike.new(bike_params)
+    @bike.user = current_user
+
     if @bike.save
       redirect_to bike_path(@bike)
     else
       render :new
+    end
   end
 
   def edit
