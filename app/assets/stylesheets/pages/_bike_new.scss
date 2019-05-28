@@ -2,8 +2,9 @@
   color: white;
 }
 
-.form-label, .form-check {
+.col-form-label, .form-check {
   color: white;
+  font-weight: bolder;
 }
 
 .form-height {
@@ -19,4 +20,8 @@
 .pos-b {
   position: absolute;
   bottom: 44px;
+}
+
+abbr {
+  display: none;
 }
