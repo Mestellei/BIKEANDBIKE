@@ -1,17 +1,19 @@
+puts "Destroying all reviews"
 Review.destroy_all
+
 Booking.destroy_all
 Bike.destroy_all
 User.destroy_all
 
 
-user1 = User.create({
+user1 = User.create!({
   first_name: 'John',
   last_name: 'Lennon',
   email: 'jonh.lennon@mail.com',
   password: '123456'
 })
 
-user2 = User.create({
+user2 = User.create!({
   first_name: 'Gabriel',
   last_name: 'Ibanez',
   email: 'gabriel.ibanez@mail.com',
@@ -20,57 +22,63 @@ user2 = User.create({
 
 p "#{User.count} user"
 
-bike1 = Bike.create({
+bike1 = Bike.create!({
   name: 'Yellow Submarine',
   brand: 'Beatles',
   category: 'single',
   address: '16 villa Gaudelet, 75011, Paris',
+  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   price_per_day: '10',
   user: user1
 })
 
-bike2 = Bike.create({
+bike2 = Bike.create!({
   name: 'Cycle',
   brand: 'Fast',
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
+  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
-bike3 = Bike.create({
+bike3 = Bike.create!({
   name: 'Hola',
   brand: 'Fast',
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
+  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
-bike4 = Bike.create({
+bike4 = Bike.create!({
   name: 'Hola',
   brand: 'Fast',
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
+  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
-bike5 = Bike.create({
+bike5 = Bike.create!({
   name: 'Hola',
   brand: 'Fast',
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
+  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
-bike6 = Bike.create({
+bike6 = Bike.create!({
   name: 'Hola',
   brand: 'Fast',
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
+  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
@@ -78,7 +86,7 @@ bike6 = Bike.create({
 p "#{Bike.count} bike"
 
 
-booking1 = Booking.create({
+booking1 = Booking.create!({
   begining_date: Date.new(2019,05,01),
   end_date: Date.new(2019,05,02),
   total_price: 15,
@@ -87,7 +95,7 @@ booking1 = Booking.create({
   bike: bike1
 })
 
-booking2 = Booking.create({
+booking2 = Booking.create!({
   begining_date: Date.new(2019,05,10),
   end_date: Date.new(2019,05,11),
   total_price: 15,
@@ -97,13 +105,13 @@ booking2 = Booking.create({
 })
 p "#{Booking.count} booking"
 
-review1 = Review.create ({
+review1 = Review.create! ({
   content: 'Nice bike!',
   rating: 4,
   booking: booking1
 })
 
-review2 = Review.create ({
+review2 = Review.create! ({
   content: 'Nice bike!',
   rating: 5,
   booking: booking2

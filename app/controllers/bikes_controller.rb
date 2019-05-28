@@ -1,5 +1,7 @@
 class BikesController < ApplicationController
   # skip_before_action: authenticate_ueser, only: :index
+  skip_before_action :authenticate_user!, only: [:index, :show]
+
   def index
     @search_coordinates = Geocoder.search(params[:where]).first.coordinates if params[:where].present?
     @bikes = Bike.where.not(latitude: nil, longitude: nil)
@@ -27,6 +29,7 @@ class BikesController < ApplicationController
   def create
     @bike = Bike.new(bike_params)
     @bike.user = current_user
+    raise
     if @bike.save
       redirect_to bike_path(@bike)
     else
