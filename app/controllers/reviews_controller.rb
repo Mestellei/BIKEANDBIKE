@@ -7,13 +7,13 @@ class ReviewsController < ApplicationController
   end
 
   def create
-    @review.rating.to_i
     @review = Review.new(review_params)
     # we need `booking_id` to asssociate review with corresponding booking
     @review.booking = Booking.find(params[:booking_id])
     if @review.save
-      redirect_to booking_path(@booking)
+      redirect_to bookings_path
     else
+      flash[:alert] = "Something went wrong."
       render :new
     end
   end

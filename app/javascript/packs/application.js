@@ -10,7 +10,11 @@ import "../plugins/flatpickr"
 
 import "../plugins/flatpickr";
 
+import { initStarRating } from '../plugins/init_star_rating';
+
+
 initMapbox();
 bikePrice();
 initAutocomplete();
 
+initStarRating();
