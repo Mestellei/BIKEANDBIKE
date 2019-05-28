@@ -7,9 +7,14 @@
       <form>
       <h1>Bike & Bike</h1>
     <p>Let's have a ride!</p>
+    <%= form_tag bikes_path, method: :get do %>
         <div class="inner-form">
           <div class="input-field first-wrap">
-            <input id="search" type="text" placeholder="Where?" />
+              <%= text_field_tag :where,
+              params[:where],
+              id: "search",
+              placeholder: "Where?"
+            %>
           </div>
           <div class="input-field second-wrap">
             <div class="icon-wrap">
@@ -18,7 +23,10 @@
               </svg>à
             <form>
                 <div>
-                  <input type="date" id="start" name="start_day">
+              <%= date_field_tag :start_day,
+              params[:start_day],
+              id: "start"
+            %>
                 </div>
               </form>
           </div>
@@ -30,16 +38,20 @@
             </div>
                <form>
                 <div>
-                  <input type="date" id="start" name="start_day">
+                    <%= date_field_tag :end_day,
+              params[:end_day],
+              id: "end"
+            %>
                 </div>
               </form>
           </div>
           <div class="input-field fifth-wrap">
-            <button class="btn-search" type="button">SEARCH</button>
+            <input name="commit" data-disable-with="SEARCH" type="submit" value="SEARCH" class="btn-search" />
           </div>
         </div>
       </form>
     </div>
+    <% end %>
 
 </div>
   </div>
@@ -70,6 +82,7 @@
   id="map"
   style="width: 100%;
   height: 100vh;"
+  data-center="<%= @search_coordinates.to_json %>"
   data-markers="<%= @markers.to_json %>"
   data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
 ></div>

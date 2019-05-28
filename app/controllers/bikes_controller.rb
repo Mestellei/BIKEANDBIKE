@@ -1,17 +1,22 @@
 class BikesController < ApplicationController
   # skip_before_action: authenticate_ueser, only: :index
   def index
+    @search_coordinates = Geocoder.search(params[:where]).first.coordinates if params[:where].present?
     @bikes = Bike.where.not(latitude: nil, longitude: nil)
+    @bikes = @bikes.near(@search_coordinates, 10) if params[:where].present?
 
     @markers = @bikes.map do |bike|
       {
         lat: bike.latitude,
-        lng: bike.longitude
+        lng: bike.longitude,
+        infoWindow: render_to_string(partial: "infowindow", locals: { bike: bike })
       }
     end
+    @search_coordinates = @search_coordinates.reverse if @search_coordinates
   end
 
   def show
+    @booking = Booking.new
     @bike = Bike.find(params[:id])
   end
 
