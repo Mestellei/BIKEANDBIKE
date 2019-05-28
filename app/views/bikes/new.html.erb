@@ -10,13 +10,13 @@
           <h1>Add a new Bike</h1>
           <div class="mt-3">
             <%= simple_form_for(@bike)  do |f| %>
-                <%= f.input :name, class: 'form-control form-height', placeholder: "Name", label: "", abbr: "" %>
-                <%= f.input :address, class: 'form-control form-height', placeholder: "Address", label: "" %>
+                <%= f.input :name, class: 'form-control form-height', placeholder: "Name", label: false, abbr: "" %>
+                <%= f.input :address, class: 'form-control form-height', placeholder: "Address", label: false %>
                 <%= f.input :category,
-                  as: :radio_buttons,
-                  wrapper_html: { class: 'inline'},
-                  collection: ["Family", "Single"] %>
-                <%= f.input :price_per_day, placeholder: '€ Price Per Day', label: "" %>
+                    as: :radio_buttons,
+                    wrapper_html: { class: 'inline'},
+                    collection: ["Family", "Single"] %>
+                <%= f.input :price_per_day, placeholder: '€ Price Per Day' %>
                 <%= f.input :picture %>
                 <%= f.input :picture_cache, as: :hidden %>
                 <%= f.submit class: 'btn btn-outline-primary' %>
