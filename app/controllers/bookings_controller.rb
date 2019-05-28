@@ -31,6 +31,7 @@ class BookingsController < ApplicationController
 
   def edit
     @booking = Booking.find(params[:id])
+    redirect_to bookings_path
   end
 
   def update
@@ -38,14 +39,14 @@ class BookingsController < ApplicationController
     @booking.update(booking_params)
 
     # no need for app/views/boking/update.html.erb
-    redirect_to booking_path(@booking)
+    redirect_to bookings_path
   end
 
   def destroy
     @booking = Booking.find(params[:id])
     @booking.destroy
     # no need for app/views/boking/destroy.html.erb
-    redirect_to booking_path(@booking)
+    redirect_to bookings_path
   end
 
   private
