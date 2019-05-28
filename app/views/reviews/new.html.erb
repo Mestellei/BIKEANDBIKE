@@ -1,5 +1,5 @@
-<h1>Reviews#new</h1>
-<p>Find me in app/views/reviews/new.html.erb</p>
+<!-- <h1>Reviews#new</h1>
+<p>Find me in app/views/reviews/new.html.erb</p> -->
 
 <!DOCTYPE html>
 <html>
@@ -18,13 +18,19 @@
 
   <body background="/assets/images/bike_yellow_background_cut.png">
 
-      <%= simple_form_for([@booking, @review]) do |f| %>
-        <%= f.input :content %>
-        <%= f.input :rating %>
-        <%= f.submit "Add a review", class: "btn btn-primary" %>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
 
-      <% end %>
+          <%= simple_form_for([@booking, @review]) do |f| %>
+            <%= f.input :content %>
+            <%= f.input :rating, collection: (1..5).to_a, label: "Rate your experience"  %>
+            <%= f.submit "Add a review", class: "btn btn-primary" %>
 
+          <% end %>
+        </div>
+      </div>
+    </div>
 
 <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -32,3 +38,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
   </body>
+
