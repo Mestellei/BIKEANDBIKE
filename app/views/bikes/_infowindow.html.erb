@@ -1,0 +1,11 @@
+<div class="card-trip">
+  <img src= "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+  <div class="card-infowindow-infos">
+    <div>
+      <h2><%= link_to bike.name, bike_path(bike) %></h2>
+      <p><%=  bike.category%></p>
+      <p><%=  bike.address%></p>
+    </div>
+    <h2 class="card-infowindow-pricing"><%= bike.price_per_day %>€/par jour</h2>
+</div>
+</div>
