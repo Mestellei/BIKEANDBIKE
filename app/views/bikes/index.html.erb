@@ -8,6 +8,7 @@
       <h1>Bike & Bike</h1>
     <p>Let's have a ride!</p>
     <%= form_tag bikes_path, method: :get do %>
+    <div class="d-flex">
         <div class="inner-form">
           <div class="input-field first-wrap">
               <%= text_field_tag :where,
@@ -16,16 +17,18 @@
               placeholder: "Where?"
             %>
           </div>
-          <div class="input-field second-wrap">
+           <div class="input-field third-wrap">
             <div class="icon-wrap">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"></path>
-              </svg>à
-            <form>
+              </svg>
+            </div>
+               <form>
                 <div>
-              <%= date_field_tag :start_day,
-              params[:start_day],
-              id: "start"
+                    <%= date_field_tag :end_day,
+              params[:end_day],
+              id: "end",
+              class: "datepicker"
             %>
                 </div>
               </form>
@@ -40,7 +43,8 @@
                 <div>
                     <%= date_field_tag :end_day,
               params[:end_day],
-              id: "end"
+              id: "end",
+              class: "datepicker"
             %>
                 </div>
               </form>
@@ -52,7 +56,7 @@
       </form>
     </div>
     <% end %>
-
+</div>
 </div>
   </div>
   </div>
