@@ -23,16 +23,16 @@ p "#{User.count} user"
 bike1 = Bike.create({
   name: 'Yellow Submarine',
   brand: 'Beatles',
-  category: 'Mountain bike',
+  category: 'single',
   address: '16 villa Gaudelet, 75011, Paris',
-  price_per_day: '15',
+  price_per_day: '10',
   user: user1
 })
 
 bike2 = Bike.create({
   name: 'Cycle',
   brand: 'Fast',
-  category: 'City bike',
+  category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
   user: user2
@@ -41,7 +41,7 @@ bike2 = Bike.create({
 bike3 = Bike.create({
   name: 'Hola',
   brand: 'Fast',
-  category: 'City bike',
+  category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
   user: user2
@@ -50,7 +50,7 @@ bike3 = Bike.create({
 bike4 = Bike.create({
   name: 'Hola',
   brand: 'Fast',
-  category: 'City bike',
+  category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
   user: user2
@@ -59,7 +59,7 @@ bike4 = Bike.create({
 bike5 = Bike.create({
   name: 'Hola',
   brand: 'Fast',
-  category: 'City bike',
+  category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
   user: user2
@@ -68,7 +68,7 @@ bike5 = Bike.create({
 bike6 = Bike.create({
   name: 'Hola',
   brand: 'Fast',
-  category: 'City bike',
+  category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
   user: user2

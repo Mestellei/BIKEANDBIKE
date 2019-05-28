@@ -590,7 +590,7 @@ legend {
 .s002 form .inner-form .input-field.fifth-wrap .btn-search {
   height: 70px;
   width: 100%;
-  background: #b78a62;
+  background: #74a1bb;
   white-space: nowrap;
   border-radius: .5px;
   font-size: 20px;
@@ -603,7 +603,7 @@ legend {
 }
 
 .s002 form .inner-form .input-field.fifth-wrap .btn-search:hover {
-  background: #af7d51;
+  background: #2f708c;
 }
 
 @media screen and (max-width: 992px) {
@@ -657,6 +657,10 @@ legend {
   .s002 form .inner-form .input-field.fifth-wrap {
     margin-bottom: 0;
   }
+}
+
+#search {
+  padding-left: 10px;
 }
 
 #add-a-bike {
