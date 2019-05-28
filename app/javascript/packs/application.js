@@ -8,6 +8,8 @@ import { initAutocomplete } from '../plugins/init_autocomplete';
 import "../plugins/flatpickr"
 
 
+import "../plugins/flatpickr";
+
 initMapbox();
 bikePrice();
 initAutocomplete();
