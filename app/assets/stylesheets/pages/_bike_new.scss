@@ -1,5 +1,6 @@
-.flat-form h1 {
+.bike-form h1 {
   color: white;
+  text-align: center;
 }
 
 .col-form-label, .form-check {
@@ -24,4 +25,22 @@
 
 abbr {
   display: none;
+}
+
+.bike-form {
+  background: rgba(255,255,255,0.5);
+  margin: auto;
+  padding: 20px;
+}
+
+input#bike_picture {
+    color: white;
+}
+
+label.file.optional {
+    display: none;
+}
+
+label.form-control-label.integer.required {
+    display: none;
 }
