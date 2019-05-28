@@ -16,11 +16,13 @@
 
   </head>
 
-  <body>
+  <body background="/assets/images/bike_yellow_background_cut.png">
 
-      <%= simple_form_for [@booking, @review] do |f| %>
+      <%= simple_form_for([@booking, @review]) do |f| %>
         <%= f.input :content %>
+        <%= f.input :rating %>
         <%= f.submit "Add a review", class: "btn btn-primary" %>
+
       <% end %>
 
 
