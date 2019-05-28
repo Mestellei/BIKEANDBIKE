@@ -1,0 +1,240 @@
+=> [[32m#<Geocoder::Result::Nominatim:0x0000559ecabbb980[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m198006226[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mrelation[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m7444[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m48.8155755[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m48.902156[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m2.224122[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m2.4697602[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m48.8566101[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m2.3514992[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Ile-de-France, Metropolitan France, France[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mplace[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.978934599321907[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mIle-de-France[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mFrance[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mfr[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabbb4a8[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m198683960[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mrelation[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m71525[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m48.8155755[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m48.902156[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m2.224122[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m2.4697602[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m48.85881005[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m2.32003101155031[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Ile-de-France, Metropolitan France, France[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mboundary[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31madministrative[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.978934599321907[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mIle-de-France[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mFrance[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mfr[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabbafa8[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m198979304[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mrelation[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m6678712[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m35.26725[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m35.3065029[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-93.761807[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-93.675083[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m35.2920325[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-93.7299173[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Logan County, Arkansas, 72855, USA[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mplace[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.683858848626882[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mLogan County[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mArkansas[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mpostcode[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m72855[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mUSA[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mus[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabba760[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m198317107[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mrelation[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m115357[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m33.6206345[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m33.7383866[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-95.6279396[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-95.4354115[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m33.6617962[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-95.555513[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Lamar County, Texas, 75460, USA[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mboundary[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31madministrative[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.553744437511633[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mLamar County[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mTexas[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mpostcode[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m75460[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mUSA[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mus[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabba120[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m197552900[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mrelation[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m130722[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m38.164922[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m38.238271[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-84.307326[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-84.232089[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m38.2097987[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-84.2529869[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Bourbon County, Kentucky, 40361, USA[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mplace[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.520826321041697[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mBourbon County[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mKentucky[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mpostcode[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m40361[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mUSA[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mus[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabb9608[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m17751544[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mnode[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m1688891876[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>
+     [[31m[1;31m"[0m[31m36.1119519[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m36.1120519[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-115.1727109[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-115.1726109[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m36.1120019[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-115.1726609[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mParis, South Las Vegas Boulevard, Hughes Center, Paradise, Clark County, Nevada, 89158, USA[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhighway[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbus_stop[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.494634218224702[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/transport_bus_stop2.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mbus_stop[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mroad[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mSouth Las Vegas Boulevard[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31msuburb[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mHughes Center[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mlocality[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParadise[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mClark County[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mNevada[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mpostcode[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m89158[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mUSA[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mus[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabb9130[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m718340[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mnode[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m257763716[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m43.153234[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m43.233234[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-80.424281[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-80.344281[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m43.193234[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-80.384281[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Brant County, Ontario, N3L 2M3, Canada[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mplace[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtown[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.475613453547742[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_place_town.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mtown[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mBrant County[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mOntario[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mpostcode[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mN3L 2M3[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mCanada[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mca[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabb8bb8[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m261184140[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mway[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m688232003[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m63.80519[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m63.8204168[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-138.6712361[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-138.62566[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m63.81289895[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-138.648486095456[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Yukon, Unorganized, Yukon, Canada[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mboundary[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31madministrative[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.45999999999999996[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate_district[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mYukon, Unorganized[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mYukon[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mCanada[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mca[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabb86b8[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m261184150[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mrelation[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m9564310[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m63.80519[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m63.8204168[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-138.6712361[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-138.62566[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m63.8154678[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-138.6511575[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Yukon, Unorganized, Yukon, Canada[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mboundary[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31madministrative[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.45999999999999996[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate_district[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mYukon, Unorganized[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mYukon[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mCanada[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mca[1;31m"[0m[31m[0m}}[32m>[0m,
+ [32m#<Geocoder::Result::Nominatim:0x0000559ecabb8118[0m
+  @cache_hit[32m=[0m[1;36mnil[0m,
+  @data[32m=[0m
+   {[31m[1;31m"[0m[31mplace_id[1;31m"[0m[31m[0m=>[1;34m198765964[0m,
+    [31m[1;31m"[0m[31mlicence[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mData © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mrelation[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mosm_id[1;31m"[0m[31m[0m=>[1;34m140787[0m,
+    [31m[1;31m"[0m[31mboundingbox[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m39.469158[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m39.489278[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-92.02148[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m-91.991679[1;31m"[0m[31m[0m],
+    [31m[1;31m"[0m[31mlat[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m39.4808721[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mlon[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m-92.0012811[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mdisplay_name[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis, Monroe County, Missouri, 65275, USA[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mclass[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mplace[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mtype[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31mimportance[1;31m"[0m[31m[0m=>[1;35m0.45025131828771103[0m,
+    [31m[1;31m"[0m[31micon[1;31m"[0m[31m[0m=>
+     [31m[1;31m"[0m[31mhttps://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png[1;31m"[0m[31m[0m,
+    [31m[1;31m"[0m[31maddress[1;31m"[0m[31m[0m=>
+     {[31m[1;31m"[0m[31mcity[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mParis[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcounty[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMonroe County[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mstate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMissouri[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mpostcode[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m65275[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mUSA[1;31m"[0m[31m[0m,
+      [31m[1;31m"[0m[31mcountry_code[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mus[1;31m"[0m[31m[0m}}[32m>[0m]
