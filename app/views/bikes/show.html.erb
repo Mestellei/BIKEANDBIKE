@@ -48,27 +48,22 @@
 
             <h2>Book this bike !</h2>
 
-            <form action="">
-              <div class="bad-form-param input-group mt-3">
-                <label class="input-group-addon control-label">From :</label>
-                <input type="date" class="form-control" id="begindate" aria-label="Username" aria-describedby="basic-addon1" class="form-control"  >
-              </div>
-              <div class="bad-form-param input-group mt-3">
-                <label class="input-group-addon control-label">To :</label>
-                <input type="date" class="form-control" id="enddate" aria-label="Username" aria-describedby="basic-addon1" class="form-control">
-              </div>
-              <input type="submit" value="Book" class="btn btn-outline-success btn-sm mt-5" style="width: 100%">
-            </form>
+      <%= simple_form_for :search, method: "get" do |f| %>
+      <%= f.input :from, as: :string, required: false, input_html: {class: "datepicker", id:"begindate"} %>
+      <%= f.input :to, as: :string, required: false, input_html: {class: "datepicker", id:"enddate"} %>
 
-          </div>
-          <div class="bike-show-card pos-b mt-4">
+          <div  class="d-flex mt-3 pt-1 border-top" >
 
-            <h2>Global Price</h2>
-            <div class="flex ml-8">
-              <div style="display: flex">
-                <i class="material-icons mr-2">Euro :</i> <div id="price-final"></div> €
-              </div>
+            <p><strong>Total Price: </strong></p>
+            <div class="ml-3">
+            <p id="price-final"> €</p>
             </div>
+            </div>
+
+
+      <%= f.button :submit, "Book", class: "btn btn-primary" %>
+    <% end %>
+
 
           </div>
 
