@@ -18,6 +18,8 @@ class BookingsController < ApplicationController
     @booking = Booking.new(booking_params)
     @booking.bike = @bike
     @booking.user = current_user
+    @booking.begining_date = params[:search][:from]
+    @booking.end_date = params[:search][:to]
     @booking.total_price = (@booking.end_date - @booking.begining_date) / (60 * 60 * 24).to_i * @bike.price_per_day
     @booking.status = "active"
     if @booking.save!
