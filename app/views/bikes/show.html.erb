@@ -50,9 +50,8 @@
             <h3>BOOK YOUR BIKE!</h3>
 
       <%= simple_form_for([@bike, @booking]) do |f| %>
-        <%= f.input :begining_date, as: :string, required: false, input_html: {class: "datepicker", id:"begindate"} %>
-        <%= f.input :end_date, as: :string, required: false, input_html: {class: "datepicker", id:"enddate"} %>
-
+        <%= f.input :begining_date, as: :string, input_html: {class: "datepicker", id:"begindate"}, required: true %>
+        <%= f.input :end_date, as: :string, input_html: {class: "datepicker", id:"enddate"}, required: true %>
 
 
           <div  class="d-flex mt-3 pt-1 border-top" >
