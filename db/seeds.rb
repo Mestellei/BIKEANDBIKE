@@ -9,7 +9,7 @@ User.destroy_all
 user1 = User.create!({
   first_name: 'John',
   last_name: 'Lennon',
-  email: 'jonh.lennon@mail.com',
+  email: 'john.lennon@mail.com',
   password: '123456'
 })
 
@@ -58,7 +58,7 @@ bike4 = Bike.create!({
   category: 'Single',
   address: '2 rue des trois couronnes, 75011, Paris',
   price_per_day: '15',
-  picture: File.new("app/assets/images/velojaune.jpg"),
+  picture: File.new("app/assets/images/VELOjaune.jpg"),
   user: user2
 })
 
