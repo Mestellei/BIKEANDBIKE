@@ -1,14 +1,37 @@
 // _reviews_new.scss
 
+.btn-color {
+  background: #74a1bb !important;
+}
+
+// .br-theme-css-stars .br-widget a:after {
+//     color: #74a1bb !important ;
+//     /* border: 1px; */
+// }
+
+// .br-widget a.br-active:after {
+//     color: #EDB867 !important;
+//     /* border: 1px; */
+// }
+
 body {
-  padding: 150px 0;
+  // padding: 150px 0;
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-.box-grey bg-white {
-  background-color: rgba(250, 250, 250, .7);
+a.btn.btn_review {
+  background: #74a1bb;
+  color: white;
+}
+
+.stars {
+text-shadow: 8px;
+}
+
+.box-grey {
+  background-color: rgba(251, 251, 251, .7);
   margin-top: 100px;
   padding: 20px;
   border: 4px solid #dce0e0;

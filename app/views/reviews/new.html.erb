@@ -27,13 +27,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 offset-md-3">
-        <div class="box-grey bg-white">
+        <div class="box-grey">
           <h2 class="mb6 text-center">Add a review</h2>
 
           <%= simple_form_for([@booking, @review]) do |f| %>
             <%= f.input :content, label: "Write about your ride" %>
-            <%= f.input :rating, collection: (1..5).to_a, label: "Rate your experience"  %>
-            <%= f.submit "Add a review", class: "btn btn-primary" %>
+            <%= f.input :rating, collection: (1..5).to_a, label: "Rate your experience", class: "stars" %>
+            <%= f.submit "Add a review", class: "btn btn-review btn-color" %>
 
           <% end %>
         </div>
