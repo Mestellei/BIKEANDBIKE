@@ -23,7 +23,7 @@ user2 = User.create!({
 p "#{User.count} user"
 
 bike1 = Bike.create!({
-  name: 'Yellow Submarine',
+  name: 'Moumoute',
   brand: 'Beatles',
   category: 'Single',
   address: '99 rue Oberkampf, 75011, Paris',
@@ -33,7 +33,7 @@ bike1 = Bike.create!({
 })
 
 bike2 = Bike.create!({
-  name: 'Cycle',
+  name: 'Squeleton',
   brand: 'Fast',
   category: 'Single',
   address: '21 rue des Abbesses, 75018, Paris',
@@ -43,7 +43,7 @@ bike2 = Bike.create!({
 })
 
 bike3 = Bike.create!({
-  name: 'Hola',
+  name: 'Formule1',
   brand: 'Fast',
   category: 'Single',
   address: '30 rue Saint Maur, 75011, Paris',
@@ -53,7 +53,7 @@ bike3 = Bike.create!({
 })
 
 bike4 = Bike.create!({
-  name: 'Bella',
+  name: 'BurningMan',
   brand: 'Fast',
   category: 'Single',
   address: '2 rue des trois couronnes, 75011, Paris',
@@ -63,9 +63,9 @@ bike4 = Bike.create!({
 })
 
 bike5 = Bike.create!({
-  name: 'Captain',
+  name: 'Unicorn',
   brand: 'Fast',
-  category: 'family',
+  category: 'Single',
   address: '10 rue condillac, 75011, Paris',
   price_per_day: '20',
   picture: File.new("app/assets/images/WHITEvelo.jpg"),
@@ -73,9 +73,9 @@ bike5 = Bike.create!({
 })
 
 bike6 = Bike.create!({
-  name: 'Jack',
+  name: 'Cool&Gay',
   brand: 'Fast',
-  category: 'family',
+  category: 'Family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
   picture: File.new("app/assets/images/MOUMOUTEvelo.jpg"),
