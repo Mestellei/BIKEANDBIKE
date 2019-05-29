@@ -18,18 +18,13 @@
 <!-- <body background="/assets/images/bike_blue_background_cut.png">
  -->
 
- <body class="booking-banner" style="background: url(<%= asset_path 'bike_blue_background_cut.png' %>;">
+ <body>
+
+  <div class="booking-banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path("BIKEWALL.jpg")%>);">
 
   <div class = "title"><h2>Bike bookings history</h2></div>
 
-<div>
   <div class="table-responsive-sm">
-
- <body style="background: url(<%= asset_path 'BIKEWALL.jpg' %>);">
-
-  <div class = "title"><h2>Bike bookings history</h2></div>
-
-  <div class="table-responsive-sm">S
 
     <table class="table table-hover">
       <thead>
@@ -63,25 +58,11 @@
           </tr>
         <% end %>
 
-     <!--    <tr>
-
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-
-          <td><a href="..." class="btn btn-warning">Edit</a></td>
-          <td><a href="..." class="btn btn-danger">Delete</a></td>
-          <td><a href="..." class="btn btn-primary">Add a review</a></td>
-
-        </tr> -->
-
-
       </tbody>
     </table>
   </div>
- </div>
+  </div>
+  </div>
 
 <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
