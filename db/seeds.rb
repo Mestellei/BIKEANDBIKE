@@ -73,12 +73,12 @@ bike5 = Bike.create!({
 })
 
 bike6 = Bike.create!({
-  name: 'Lesbosfamily',
+  name: 'CoolFamily',
   brand: 'Fast',
   category: 'Family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
-  picture: File.new("app/assets/images/LesbosFamily.png"),
+  picture: File.new("app/assets/images/tandem.jpg"),
   user: user2
 })
 
