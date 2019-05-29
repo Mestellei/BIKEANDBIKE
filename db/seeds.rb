@@ -38,7 +38,7 @@ bike2 = Bike.create!({
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  remote_picture_url: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
@@ -46,39 +46,39 @@ bike3 = Bike.create!({
   name: 'Hola',
   brand: 'Fast',
   category: 'family',
-  address: '18 villa Gaudelet, 75011, Paris',
+  address: '30 rue Saint Maur, 75011, Paris',
   price_per_day: '20',
   remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
 bike4 = Bike.create!({
-  name: 'Hola',
+  name: 'Bella',
   brand: 'Fast',
-  category: 'family',
-  address: '18 villa Gaudelet, 75011, Paris',
-  price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  category: 'single',
+  address: '2 rue des trois couronnes, 75011, Paris',
+  price_per_day: '15',
+  remote_picture_url: "https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
 bike5 = Bike.create!({
-  name: 'Hola',
+  name: 'Captain',
   brand: 'Fast',
   category: 'family',
-  address: '18 villa Gaudelet, 75011, Paris',
+  address: '10 rue condillac, 75011, Paris',
   price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  remote_picture_url: "https://images.unsplash.com/photo-1507150080056-79542bdb9c59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
   user: user2
 })
 
 bike6 = Bike.create!({
-  name: 'Hola',
+  name: 'Jack',
   brand: 'Fast',
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  remote_picture_url: "https://images.unsplash.com/photo-1484920274317-87885fcbc504?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
   user: user2
 })
 
