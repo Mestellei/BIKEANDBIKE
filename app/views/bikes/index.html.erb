@@ -70,7 +70,9 @@
 <div class="d-flex">
 <div class="col-6 listbikes">
   <% @bikes.each do |bike| %>
+
 <div class="card-trip">
+<%= link_to "", bike_path(bike), class:"card-link" %>
 <%= cl_image_tag(bike.picture) %>
   <div class="card-trip-infos">
     <div>
