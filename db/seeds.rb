@@ -27,7 +27,7 @@ bike1 = Bike.create!({
   brand: 'Beatles',
   category: 'single',
   address: '16 villa Gaudelet, 75011, Paris',
-  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  picture: File.new("app/assets/images/MOUMOUTEvelo.jpg"),
   price_per_day: '10',
   user: user1
 })
@@ -38,7 +38,7 @@ bike2 = Bike.create!({
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  picture: File.new("app/assets/images/SQUELETTEvelo.jpg"),
   user: user2
 })
 
@@ -48,7 +48,7 @@ bike3 = Bike.create!({
   category: 'family',
   address: '30 rue Saint Maur, 75011, Paris',
   price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  picture: File.new("app/assets/images/REDvelo.jpg"),
   user: user2
 })
 
@@ -58,7 +58,7 @@ bike4 = Bike.create!({
   category: 'single',
   address: '2 rue des trois couronnes, 75011, Paris',
   price_per_day: '15',
-  remote_picture_url: "https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  picture: File.new("app/assets/images/MOUMOUTEvelo.jpg"),
   user: user2
 })
 
@@ -68,7 +68,7 @@ bike5 = Bike.create!({
   category: 'family',
   address: '10 rue condillac, 75011, Paris',
   price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1507150080056-79542bdb9c59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  picture: File.new("app/assets/images/MOUMOUTEvelo.jpg"),
   user: user2
 })
 
@@ -78,7 +78,7 @@ bike6 = Bike.create!({
   category: 'family',
   address: '18 villa Gaudelet, 75011, Paris',
   price_per_day: '20',
-  remote_picture_url: "https://images.unsplash.com/photo-1484920274317-87885fcbc504?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
+  picture: File.new("app/assets/images/MOUMOUTEvelo.jpg"),
   user: user2
 })
 
