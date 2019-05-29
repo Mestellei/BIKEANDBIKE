@@ -9,7 +9,9 @@
     "jquery-bar-rating": "^1.2.2",
     "mapbox-gl": "^1.0.0",
     "places.js": "^1.16.4",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.4.1"
